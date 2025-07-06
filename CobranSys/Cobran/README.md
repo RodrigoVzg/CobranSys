@@ -65,7 +65,7 @@ Cobransys/
 
 ---
 
-## 🧹 Dependências
+## Dependências
 
 A aplicação utiliza **Maven** como gerenciador de dependências, o que simplifica a inclusão automática das bibliotecas necessárias, especialmente o **JavaFX SDK**.
 
