@@ -1,0 +1,99 @@
+/* Estilo para a tela de cálculo de multa */
+
+.label {
+    -fx-text-fill: #dddddd;
+    -fx-font-size: 13px;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.radio-button {
+    -fx-font-size: 13px;
+    -fx-text-fill: #ff8c42;
+    -fx-background-color: transparent;
+    -fx-background-radius: 6px;
+    -fx-padding: 6 12 6 6;
+    -fx-cursor: hand;
+    -fx-transition: all 0.2s ease-in-out;
+}
+
+.radio-button:hover {
+    -fx-background-color: rgba(255, 140, 66, 0.15);
+}
+
+.radio-button:selected {
+    -fx-background-color: #ff8c42;
+    -fx-text-fill: black;
+}
+
+.radio-button .radio {
+    -fx-background-color: transparent;
+    -fx-border-color: #ff8c42;
+    -fx-border-width: 2px;
+    -fx-border-radius: 0;
+    -fx-padding: 4;
+    
+}
+
+
+.radio-button:selected .radio {
+    -fx-background-color: #111111; /* quadrado preenchido com preto */
+    -fx-border-color: #ff8c42;
+    -fx-background-radius: 0;      /* garante cantos retos */
+    -fx-border-radius: 0;
+}
+
+.radio-button:selected .dot {
+    -fx-background-color: transparent;
+}
+
+/* Estilo para campos obrigatórios com alerta */
+.alerta-visivel {
+    -fx-border-color: #ff4c4c;
+    -fx-border-width: 2px;
+    -fx-border-radius: 4px;
+    -fx-effect: dropshadow(one-pass-box, rgba(255,76,76,0.3), 5, 0, 0, 2);
+    -fx-background-color: rgba(255,76,76,0.05);
+}
+
+
+
+
+.spinner,
+.text-field {
+    -fx-background-color: rgba(255, 255, 255, 0.05);
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #3a3a55;
+    -fx-border-radius: 4px;
+    -fx-padding: 4px;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.spinner .increment-arrow-button,
+.spinner .decrement-arrow-button {
+    -fx-background-color: #2b2b3e;
+    -fx-mark-color: #ff8c42;
+}
+
+.spinner:focused,
+.text-field:focused {
+    -fx-border-color: #ff8c42;
+    -fx-background-color: rgba(255, 140, 66, 0.05);
+}
+
+.button {
+    -fx-background-color: #ff8c42;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: transparent;
+    -fx-background-radius: 4;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #ff9f60;
+}
+
+.anchor-pane {
+    -fx-background-color: transparent;
+    -fx-padding: 20px;
+}

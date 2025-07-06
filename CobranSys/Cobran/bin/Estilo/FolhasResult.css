@@ -1,0 +1,30 @@
+.text-area {
+    -fx-background-color: transparent;
+    -fx-control-inner-background: transparent;
+    -fx-text-fill: #eeeeee;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-border-color: #3a3a55;
+    -fx-border-width: 1px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-highlight-fill: #ff8c42;
+    -fx-highlight-text-fill: #ffffff;
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.text-area .viewport {
+    -fx-background-color: transparent;
+}
+
+.text-area .content {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
